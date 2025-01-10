@@ -1,5 +1,17 @@
 {
+  "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html"
+  },
   "devDependencies": {
     "parcel": "^2.13.3"
-  }
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-router-dom": "^7.1.1"
+  },
+  "browserslist" : [
+      "last 2 chrome versions",
+      "last 2 Firefox versions"
+    ]
 }
